@@ -1,0 +1,55 @@
+/*
+Theme Name: Wordpress Theme
+Author: Mahadi Hasan
+Description: this is my first wordpress theme,
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: lightblue;
+    padding: 25px;
+}
+
+.nav-style {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0px 5px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+.post-style h2 a{
+    text-decoration: none;
+}
+.post-style p{
+    padding: 15px 
+
+}
+footer {
+    padding: 30px 0px;
+    text-align: center;
+    background-color: #999;
+}
